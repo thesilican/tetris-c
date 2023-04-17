@@ -8,7 +8,7 @@ OBJS := $(SRCS:$(SRC_DIR)/%.c=$(OBJ_DIR)/%.o)
 DEPS := $(OBJS:.o=.d)
 
 CC := gcc
-CFLAGS := -MMD -MP
+CFLAGS := -MMD -MP -Wall
 
 .PHONY: clean test
 
