@@ -1,4 +1,4 @@
-#include "util.h"
+#include "tetris.h"
 
 Rng rng_new(uint32_t seed)
 {

@@ -1,4 +1,4 @@
-#include "game.h"
+#include "tetris.h"
 
 Bag bag_new(int seed)
 {

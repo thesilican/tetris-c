@@ -1,4 +1,4 @@
-#include "piece_const.h"
+#include "tetris.h"
 
 bool PIECE_SHAPE[7][4][4][4] = {
     {// O 0
